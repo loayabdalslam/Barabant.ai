@@ -10,10 +10,10 @@ log_interval = 10 # don't print too too often
 always_save_checkpoint = False
 
 wandb_log = False # override via command line if you like
-wandb_project = 'barabant-char'
+wandb_project = 'barabant'
 wandb_run_name = 'mini-gpt'
 
-dataset = 'barabant_char'
+dataset = 'barabant'
 gradient_accumulation_steps = 1
 batch_size = 64
 block_size = 256 # context of up to 256 previous characters
